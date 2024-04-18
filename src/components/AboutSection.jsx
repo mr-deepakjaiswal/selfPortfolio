@@ -16,7 +16,7 @@ function AboutSection() {
           <h1 class="fw-bold text-body-emphasis">Get to know me!</h1>
           <p class="lead">I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <b>Projects</b>  section.</p>
           <div class="">
-            <a href={Resume} download="DeepakJiaswalResume">
+            <a href={Resume} download="DeepakJaiswalResume">
               <button type="button" class="aboutBtn mt-3 mb-3">Download CV <span className='aboutBtnicon'><MdDownloading /></span></button></a>
           </div>
         </div>
