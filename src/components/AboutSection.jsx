@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdDownloading } from "react-icons/md";
+import Profile from '../assets/images/profile.jpg'
 
 function AboutSection() {
   const handleDownloadClick = () => {
@@ -39,7 +40,7 @@ function AboutSection() {
           </div>
         </div>
         <div class="aboutImg">
-          <img src="/public/images/profile.jpg" className="d-block mx-lg-auto img-fluid aboutImg " alt="Bootstrap Themes" width="400" height="200" loading="lazy" />
+          <img src={Profile} className="d-block mx-lg-auto img-fluid aboutImg " alt="Bootstrap Themes" width="400" height="200" loading="lazy" />
         </div>
       </div>
     </div>

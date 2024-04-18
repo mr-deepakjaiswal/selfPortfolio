@@ -9,6 +9,10 @@ body{
 h1,h2,h3,h4,h5{
   font-family: "Quicksand", sans-serif !important;
 }
+
+.navbarLi:hover{
+  border-bottom: 3px solid blue;
+}
 .homeSection{
   height: 80vh;
   width:99.7vw;
@@ -58,6 +62,7 @@ h1,h2,h3,h4,h5{
   border-radius: 25px;
   font-family: "Quicksand", sans-serif !important;
 }
+
 .HomeRightBtn a{
   display: flex;
   flex-direction: row;

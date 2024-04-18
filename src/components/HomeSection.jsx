@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { PiHandsPrayingFill } from "react-icons/pi";
-
+import PROFILE from '../assets/images/profile.jpg'
 
 function HomeSection() {
   return (
@@ -19,7 +19,7 @@ function HomeSection() {
         <div className=" col--8  ">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div className="col-10 col-sm-8 col-lg-4">
-              <img src="public/images/profile.jpg" className="d-block mx-lg-auto img-fluid profile_img" alt="" loading="lazy" />
+              <img src={PROFILE} className="d-block mx-lg-auto img-fluid profile_img" alt="Profile img" loading="lazy" />
             </div>
             <div className="col-lg-8">
               <h1 className="fw-bold text-body-emphasis lh-1 mb-3 HomeH1">HEY I'M DEEPAK JAISWAL</h1>
