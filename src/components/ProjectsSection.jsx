@@ -16,6 +16,8 @@ function ProjectsSection() {
             <div class="">
               <button type="button" class="projectBtn mb-3">CASE STUDY</button>
             </div>
+
+            
           </div>
           <div class="projectImg">
             <img src="/public/images/portfolio.jpeg" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="880" height="400" loading="lazy" />

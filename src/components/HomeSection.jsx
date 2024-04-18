@@ -35,10 +35,11 @@ function HomeSection() {
         </div>
         <div></div>
       </div>
+
       {/* <div className="mouseScrollCont">
         <div className="mouse"></div>
       </div> */}
-    </div>
+    </div >
   )
 }
 
