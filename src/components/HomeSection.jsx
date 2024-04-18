@@ -2,25 +2,24 @@ import React from 'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
 import { PiHandsPrayingFill } from "react-icons/pi";
+
 
 function HomeSection() {
   return (
     <div className='homeSection row px-2' id='home'>
       <div className='leftHomeSection col-3'>
         <div className='links'>
-          <a href="" className='linksIcons'><FaLinkedin /></a>
-          <a href="" className='linksIcons'><FaGithub /></a>
-          <a href="" className='linksIcons'><FaInstagram /></a>
-          <a href="" className='linksIcons'><FaWhatsapp /></a>
+          <a href="https://www.linkedin.com/in/mrdeepakjaiswal/" className='linksIcons' target='_blank'><FaLinkedin /></a>
+          <a href="https://github.com/mr-deepakjaiswal" target='_blank' className='linksIcons'><FaGithub /></a>
+          <a href="https://www.instagram.com/mr.deepak_jaiswal" className='linksIcons' target='_blank'><FaInstagram /></a>
         </div>
       </div>
       <div className='rightHomeSection col-9'>
         <div className=" col--8  ">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div className="col-10 col-sm-8 col-lg-4">
-              <img src="/public/images/profile.jpg" className="d-block mx-lg-auto img-fluid profile_img" alt="" loading="lazy" />
+              <img src="public/images/profile.jpg" className="d-block mx-lg-auto img-fluid profile_img" alt="" loading="lazy" />
             </div>
             <div className="col-lg-8">
               <h1 className="fw-bold text-body-emphasis lh-1 mb-3 HomeH1">HEY I'M DEEPAK JAISWAL</h1>

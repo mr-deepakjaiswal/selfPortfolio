@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5{
 .homeSection{
   height: 80vh;
   width:99.7vw;
-  background:linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/public/images/common-bg.png");
+  background:linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/images/common-bg.png");
 }
 .navbarImg{
   width: 55px;
@@ -228,7 +228,7 @@ h1,h2,h3,h4,h5{
   .contactSection{
     margin-top: 35px;
     height: 100vh;
-    background:linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/public/images/common-bg.png");
+    background:linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("/images/common-bg.png");
   }
   .contactTop>h2{
     font-weight: 800;
