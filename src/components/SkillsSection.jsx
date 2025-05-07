@@ -2,7 +2,7 @@ import React from 'react'
 import { MdVerified } from "react-icons/md";
 function SkillsSection() {
   return (
-    <div className='skillSection' id='skills'>
+    <div className='skillSection pb-5' id='skills'>
       <div class="p-5 pb-md-5 mx-auto text-center Skill">
         <h1 class="display-4 fw-bold text-body-emphasis">Skills</h1>
         <div className="hrLine"></div>

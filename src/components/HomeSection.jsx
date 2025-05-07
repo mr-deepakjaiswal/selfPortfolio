@@ -22,9 +22,9 @@ function HomeSection() {
               <img src={PROFILE} className="d-block mx-lg-auto img-fluid profile_img" alt="Profile img" loading="lazy" />
             </div>
             <div className="col-lg-8">
-              <h1 className="fw-bold text-body-emphasis lh-1 mb-3 HomeH1">HEY I'M DEEPAK JAISWAL</h1>
+              <h1 className="fw-bold text-body-emphasis lh-2 mb-3 HomeH1">HEY I'M DEEPAK JAISWAL</h1>
               <h3 className=' text-body-emphasis lh-1 mt-4 mb-3'>------- Front-End Developer</h3>
-              <p className="lead homeText mt-4 mb-3" >A passionate web development student with a strong desire to <br /> create meaningful online experiences.</p>
+              <p className="lead homeText mt-4 mb-4" >A passionate web development student with a strong desire to <br /> create meaningful online experiences.</p>
 
               <button type="button" className="HomeRightBtn mt-3 mb-3">
                 <a href="#contact">Say <span>Hello</span><span><PiHandsPrayingFill /></span></a></button>

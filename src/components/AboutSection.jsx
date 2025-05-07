@@ -5,7 +5,7 @@ import Resume from "../assets/resumeDeepak.pdf"
 function AboutSection() {
 
   return (
-    <div className='About' id='about'>
+    <div className='About pb-5' id='about'>
       <div class="p-5 pb-md-5 mx-auto text-center aboutTop">
         <h1 class="display-4 fw-bold text-body-emphasis">About</h1>
         <div className="hrLine"></div>

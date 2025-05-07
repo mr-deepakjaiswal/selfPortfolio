@@ -8,7 +8,7 @@ export default function Navbar() {
         <header className="d-flex flex-wrap justify-content-center py-3 mb-2" >
           <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <img className='navbarImg' src={headderImg} alt="" />
-            <span className="fs-4 fw-bold text-body-emphasis" style={{ fontFamily: "Quicksand" }}>Deepak Jaiswal</span>
+            <span className="fs-4 fw-bold text-body-emphasis text-uppercase" style={{ fontFamily: "Quicksand" }}>Deepak Jaiswal</span>
           </a>
 
           <ul className="nav nav-pills" style={{ fontFamily: "Quicksand" }}>
